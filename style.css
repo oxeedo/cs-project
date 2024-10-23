@@ -35,14 +35,7 @@ body {
   .container{
     margin-bottom: 50px;
   }
-  .burrito-link{
-    text-decoration: underline; 
-    color: #ffcc00; 
-    transition: color 0.3s; 
-  }
-  .burrito-link:hover {
-    color: #ff9900; /* Change color on hover */
-}
+  
   #results .item {
     margin-bottom: 30px;
   }
@@ -66,8 +59,8 @@ body {
     overflow:hidden;
   }
   #results {
-    max-width: 1440px;
-    margin: 0 auto 80px auto;
+    max-width: 1240px;
+    margin: 0 auto 40px auto;
     overflow:hidden;
   }
   .thumb img {
@@ -97,7 +90,7 @@ body {
   right:0px;
   left:0px;
   color:white;
-  padding: 80px 10px 10px 10px;
+  padding: 100px 5px 10px 10px;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&0+0,1+100 */
 background: -moz-linear-gradient(top,  rgba(53,73,90,0) 0%, rgba(53,73,90,1) 100%); 
 background: -webkit-linear-gradient(top,  rgba(53,73,90,0) 0%,rgba(53,73,90,1) 100%); 
@@ -105,12 +98,15 @@ background: linear-gradient(to bottom,  rgba(53,73,90,0) 0%,rgba(53,73,90,1) 100
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35495A', endColorstr='#35495A',GradientType=0 ); 
 
 }
-
+.location{
+  font-size: 14px;
+  text-decoration: none;
+}
 .description * {
   display:block;
 }
 .description a {
-  margin-bottom:0.5em;
+ margin-bottom: -20px;
   font-size:18px;
   color:white;
   text-decoration:underline;
